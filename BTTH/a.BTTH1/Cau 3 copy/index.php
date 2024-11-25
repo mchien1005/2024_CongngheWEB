@@ -12,7 +12,7 @@
 <body>
     <?php
 // Đường dẫn tới tệp CSV
-$filename = "KTPM2.csv";
+$filename = "KTPM21.csv";
 
 // Mảng chứa dữ liệu sinh viên
 $sinhvien = [];
@@ -37,8 +37,7 @@ if (file_exists($filename)) {
 }
 
 // Kiểm tra mảng dữ liệu (tạm thời)
- //print_r($sinhvien);
-
+// print_r($sinhvien);
 ?>
 
     <div class="container mt-5">
@@ -48,13 +47,11 @@ if (file_exists($filename)) {
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
                 <tr>
-                    <th>Username</th>
-                    <th>Password</th>
-                    <th>Lastname</th>
-                    <th>Firstname</th>
-                    <th>Class</th>
-                    <th>Email</th>
-                    <th>Course</th>
+                    <th>ID</th>
+                    <th>Họ tên</th>
+                    <th>Ngày sinh</th>
+                    <th>Lớp</th>
+                    <th>Điểm trung bình</th>
                 </tr>
             </thead>
             <tbody>
@@ -62,13 +59,11 @@ if (file_exists($filename)) {
                 // Duyệt qua từng sinh viên và hiển thị
                 foreach ($sinhvien as $sv) {
                     echo "<tr>";
-                    echo "<td>{$sv['username']}</td>";
-                    echo "<td>{$sv['password']}</td>";
-                    echo "<td>{$sv['lastname']}</td>";
-                    echo "<td>{$sv['firstname']}</td>";
-                    echo "<td>{$sv['city']}</td>";
-                    echo "<td>{$sv['email']}</td>";
-                    echo "<td>{$sv['course1']}</td>";
+                    echo "<td>{$sv['ID']}</td>";
+                    echo "<td>{$sv['Họ tên']}</td>";
+                    echo "<td>{$sv['Ngày sinh']}</td>";
+                    echo "<td>{$sv['Lớp']}</td>";
+                    echo "<td>{$sv['Điểm trung bình']}</td>";
                     echo "</tr>";
                 }
                 ?>
