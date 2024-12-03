@@ -6,8 +6,8 @@
     <title>Quản lý sản phẩm</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="C:\Users\minhc\OneDrive\Tài liệu\GitHub\2024_CongngheWEB\BTVN\b.30-11\css\style.css">
-    <link rel="stylesheet" href="C:\Users\minhc\OneDrive\Tài liệu\GitHub\2024_CongngheWEB\BTVN\b.30-11\css\bootstrap.css">
+    <link rel="stylesheet" href="/BTVN/b.30-11/css/style.css">
+    <link rel="stylesheet" href="/../b.30-11/css/bootstrap.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -16,6 +16,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
+<style>
+
+</style>
 <body>
 <!-- Header -->
 <header>

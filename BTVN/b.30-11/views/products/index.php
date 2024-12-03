@@ -10,7 +10,7 @@ ob_start(); // Bắt đầu bộ đệm đầu ra
                 <div class="table-title">
                     <div class="row">
                         <div class="text-start">
-                            <a href="../../views/products/add.php" class="btn btn-success"><span>Thêm
+                            <a href="add.php" class="btn btn-success"><span>Thêm
                                 mới</span></a>
                         </div>
                     </div>
@@ -31,10 +31,10 @@ ob_start(); // Bắt đầu bộ đệm đầu ra
                                 <td><?= htmlspecialchars($product['name']); ?></td>
                                 <td><?= htmlspecialchars($product['price']); ?> VND</td>
                                 <td>
-                                    <a href="../../views/products/edit.php?id=<?= $product['id']; ?>" class="edit"><i class="material-icons">edit</i></a>
+                                    <a href="edit.php?id=<?= $product['id']; ?>" class="edit"><i class="material-icons">edit</i></a>
                                 </td>
                                 <td>
-                                    <a href="../../views/products/delete.php?id=<?= $product['id'] ?>" class="delete"><i class="material-icons">delete</i></a>
+                                    <a href="delete.php?id=<?= $product['id'] ?>" class="delete"><i class="material-icons">delete</i></a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
@@ -52,6 +52,6 @@ ob_start(); // Bắt đầu bộ đệm đầu ra
 
 <?php
 $content = ob_get_clean(); // Lấy nội dung và xóa bộ đệm
-include 'views/layout.php'; // Nhúng layout
+include 'C:\xampp\1.CNWEB\2024_CongngheWEB\BTVN\b.30-11\views\layout.php'; // Nhúng layout
 ?>
 

@@ -1,5 +1,5 @@
 <?php
-require_once 'C:\xampp\1.CNWEB\b.30-11\models\product.php';
+require_once 'C:\xampp\1.CNWEB\2024_CongngheWEB\BTVN\b.30-11\models\product.php';
 
 class ProductController {
     private $product;
@@ -10,7 +10,7 @@ class ProductController {
 
     public function index() {
         $products = $this->product->getAll();
-        require 'C:\xampp\1.CNWEB\b.30-11\views\products\index.php';
+        require 'C:\xampp\1.CNWEB\2024_CongngheWEB\BTVN\b.30-11\views\products\index.php';
     }
 
     public function getProductById($id) {

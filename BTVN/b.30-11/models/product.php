@@ -1,5 +1,5 @@
 <?php
-require_once 'C:\Users\minhc\OneDrive\Tài liệu\GitHub\2024_CongngheWEB\BTVN\b.30-11\config.php';
+require_once 'C:\xampp\1.CNWEB\2024_CongngheWEB\BTVN\b.30-11\config.php';
 
 class Product {
     private $pdo;

@@ -1,7 +1,7 @@
 <!-- edit_product.php -->
 <?php
-$pdo = require_once 'C:\xampp\1.CNWEB\b.30-11\config.php'; // Nhận đối tượng PDO từ config.php
-require_once 'C:\xampp\1.CNWEB\b.30-11\controllers\productcontroller.php';
+$pdo = require_once '../../config.php'; // Nhận đối tượng PDO từ config.php
+require_once '../../controllers/productcontroller.php';
 
 $controller = new ProductController($pdo);
 // Lấy thông tin sản phẩm theo ID
