@@ -21,9 +21,9 @@ $product = $controller->getProductById($_GET['id']);
     <div class="alert alert-danger shadow-sm p-4">
         <h4 class="mb-4">Xóa sản phẩm</h4>
         <p>Bạn có chắc chắn muốn xóa sản phẩm <strong>"<?= htmlspecialchars($product['name']) ?>"</strong> không?</p>
-        <form action="../../../b.30-11/index.php?action=delete&id=<?= $product['id'] ?>" method="POST">
+        <form action="../../../../../2024_CongngheWEB/BTVN/b.30-11/index.php?action=delete&id=<?= $product['id'] ?>" method="POST">
             <button type="submit" class="btn btn-danger">Xóa</button>
-            <a href="../../../b.30-11/index.php" class="btn btn-secondary">Hủy</a>
+            <a href="../../../../../2024_CongngheWEB/BTVN/b.30-11/index.php" class="btn btn-secondary">Hủy</a>
         </form>
     </div>
 </div>

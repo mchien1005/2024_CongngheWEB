@@ -10,7 +10,7 @@
 <body>
 <div class="container mt-5">
     <h2 class="mb-4">Thêm sản phẩm mới</h2>
-    <form action="../../../b.30-11/index.php?action=store" method="POST" class="shadow p-4 bg-light rounded">
+    <form action="../../../../../2024_CongngheWEB/BTVN/b.30-11/index.php?action=store" method="POST" class="shadow p-4 bg-light rounded">
         <div class="mb-3">
             <label for="name" class="form-label">Tên sản phẩm</label>
             <input type="text" id="name" name="name" class="form-control" placeholder="Nhập tên sản phẩm" required>
@@ -20,7 +20,7 @@
             <input type="number" id="price" name="price" class="form-control" placeholder="Nhập giá sản phẩm" required>
         </div>
         <button type="submit" class="btn btn-primary">Thêm</button>
-        <a href="../../../b.30-11/index.php" class="btn btn-secondary">Hủy</a>
+        <a href="../../../../../2024_CongngheWEB/BTVN/b.30-11/index.php" class="btn btn-secondary">Hủy</a>
     </form>
 </div>
 </body>

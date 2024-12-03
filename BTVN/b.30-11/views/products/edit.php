@@ -23,7 +23,7 @@ $product = $controller->getProductById($_GET['id']);
     // Lấy thông tin sản phẩm theo ID
     $product = $controller->getProductById($_GET['id']);
     ?>
-    <form action="../../../b.30-11/index.php?action=update&id=<?= $product['id'] ?>" method="POST" class="shadow p-4 bg-light rounded">
+    <form action="../../../../../2024_CongngheWEB/BTVN/b.30-11/index.php?action=update&id=<?= $product['id'] ?>" method="POST" class="shadow p-4 bg-light rounded">
         <div class="mb-3">
             <label for="name" class="form-label">Tên sản phẩm</label>
             <input type="text" id="name" name="name" class="form-control" value="<?= htmlspecialchars($product['name']) ?>" required>
@@ -33,7 +33,7 @@ $product = $controller->getProductById($_GET['id']);
             <input type="number" id="price" name="price" class="form-control" value="<?= $product['price'] ?>" required>
         </div>
         <button type="submit" class="btn btn-primary">Cập nhật</button>
-        <a href="../../../b.30-11/index.php" class="btn btn-secondary">Hủy</a>
+        <a href="../../../../../2024_CongngheWEB/BTVN/b.30-11/index.php" class="btn btn-secondary">Hủy</a>
     </form>
 </div>
 </body>
