@@ -55,6 +55,11 @@
                                  <button type="submit" class="btn btn-danger btn-sm"><i class="material-icons"
                                          data-toggle="tooltip" title="Delete">&#xE872;</i></button>
                              </form>
+                             <a href="{{ route('posts.show', $post->id) }}" class="btn btn-info btn-sm"
+                                 data-toggle="tooltip" title="Xem chi tiết">
+                                 <i class="fa fa-eye"></i>
+                             </a>
+
                          </td>
                      </tr>
                      @endforeach
